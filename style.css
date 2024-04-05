@@ -1,0 +1,168 @@
+.general{
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contents{
+    width: 100%;
+    overflow: hidden;
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Navarea{
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 
+}
+.logosection{
+    overflow: hidden ;
+}
+.logo{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+}
+.logoname{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4f0505;
+    padding: 0 10px;
+}
+.Navarea ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 0 5px;
+}
+.Navarea ul li{
+    padding: 0 1rem;
+}
+.Navarea ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+
+#btnn a{
+    background-color:  #3270d2;
+    padding: 10px 17px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.Maincontents{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    padding: 1rem 2rem;
+}
+.conts{
+    width:100% ; 
+    box-sizing: border-box;
+    margin: auto;
+    padding:0 5px;
+    padding-left: 3.5rem;
+}
+.bgtext{
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+.main{
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.main h3{
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.bgimg{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.img img{
+    width: 450px;
+    height: 450px;
+}
+.shopbtn{
+    padding: 10px 20px ;
+    text-align: center;
+    color: white;
+    background-color: #3270d2;
+    width: 100px;
+    border-radius: 5px;
+
+}
+.shopbtn a{
+    color: #fff;
+    text-decoration: none;
+}
+.bbg{
+    position: absolute;
+    z-index: 20;
+    top: 430px;
+    left: 240px;
+}
+.bbg img{
+    width: 420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+
+
+.d-flex{
+    display: flex;
+    width: 100%;
+
+}
+.row{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.col{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-space{
+    justify-content: space-between;
+    align-items: center;
+}
